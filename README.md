@@ -11,7 +11,7 @@
 - [UNSTOP4BLE](https://www.youtube.com/channel/UCR4wDMrnfOPhW-zZQtNU4iA) - Made the port
 - [G3YT](https://www.youtube.com/channel/UCo6nbxU6x_YXaHVj78e7_vg) - Playtester
 - [LuckyDog7](https://www.youtube.com/channel/UCeHXKGpDKo2eqYKVkqCUdaA) - Controls code
-- 
+
 ### Friday Night Funkin'
  - [ninjamuffin99](https://twitter.com/ninja_muffin99) - Programming
  - [PhantomArcade3K](https://twitter.com/phantomarcade3k) and [Evilsk8r](https://twitter.com/evilsk8r) - Art
