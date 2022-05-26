@@ -8,7 +8,7 @@
 
 # Credits
 ### iOS Port
-- [UNSTOP4BLE](https://www.youtube.com/channel/UCR4wDMrnfOPhW-zZQtNU4iA) - Made the port
+- [UNSTOP4BLE](https://www.youtube.com/channel/UCR4wDMrnfOPhW-zZQtNU4iA) - Made the port and added a lot of optimizations
 - [G3YT](https://www.youtube.com/channel/UCo6nbxU6x_YXaHVj78e7_vg) - Playtester
 - [LuckyDog7](https://www.youtube.com/channel/UCeHXKGpDKo2eqYKVkqCUdaA) - Controls code
 
