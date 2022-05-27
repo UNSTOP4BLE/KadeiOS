@@ -4098,10 +4098,13 @@ class PlayState extends MusicBeatState
 		{
 			if (!PlayStateChangeables.botPlay)
 			{
-				if (pressArray[spr.ID] && spr.animation.curAnim.name != 'confirm')
-					spr.animation.play('pressed');
+				if (pressArray[spr.ID]
+					&& spr.animation.curAnim.name != 'confirm'
+					&& spr.animation.curAnim.name != 'pressed'
+					&& !spr.animation.curAnim.name.startsWith('dirCon'))
+					spr.playAnim('pressed', false);
 				if (!holdArray[spr.ID])
-					spr.animation.play('static');
+					spr.playAnim('static', false);
 			}
 			else if (FlxG.save.data.cpuStrums)
 			{
@@ -4427,13 +4430,13 @@ class PlayState extends MusicBeatState
 				saveJudge.push(note.rating);
 			}
 
-			/*		if (!PlayStateChangeables.botPlay || FlxG.save.data.cpuStrums)
-				{
+			if (!PlayStateChangeables.botPlay || FlxG.save.data.cpuStrums)
+			{
 					playerStrums.forEach(function(spr:StaticArrow)
 					{
 						pressArrow(spr, spr.ID, note);
 					});
-			}*/
+			}
 
 			if (!note.isSustainNote)
 			{
